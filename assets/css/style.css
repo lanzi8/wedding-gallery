@@ -42,6 +42,21 @@ body{
   border-radius: 5px;
   border: 2px dashed #6990F2;
 }
+form.upload-form {
+  position: relative;
+}
+.form-bg-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../img/m&f_black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+  opacity: 0.2;
+}
 form :where(i, p){
   color: #6990F2;
 }
